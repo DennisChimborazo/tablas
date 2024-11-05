@@ -1,0 +1,7 @@
+composer create-project laravel/laravel Practica
+
+composer create-project --ignore-platform-req=ext-pcntl laravel/laravel Grupo1
+
+php artisan make:controller EstudianteController --resource
+
+ php artisan serve --host=127.0.0.1 --port=8000 
